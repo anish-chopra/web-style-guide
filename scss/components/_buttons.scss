@@ -17,21 +17,36 @@
   
   .default {
     background-color: $button-default;
+    &:hover {
+      background-color: lighten($button-default, 20%);
+    }
   }
   
   .error {
     background-color: $button-error;
+    &:hover {
+      background-color: lighten($button-error, 20%);
+    }
   }
   
   .info {
     background-color: $button-info;
+    &:hover {
+      background-color: lighten($button-info, 20%);
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $button-success;
+    &:hover {
+      background-color: lighten($button-success, 20%);
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $button-warning;
+    &:hover {
+      background-color: lighten($button-warning, 20%);
+    }
   }
   
